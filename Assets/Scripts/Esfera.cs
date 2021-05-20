@@ -32,5 +32,10 @@ public class Esfera : MonoBehaviour
             this.transform.Rotate(Vector3.up, 10);
         }
 
+
+        if (Input.GetKey(KeyCode.Q)) {
+            Destroy(gameObject);
+        }
+
     }
 }
