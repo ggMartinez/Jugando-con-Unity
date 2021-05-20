@@ -34,6 +34,7 @@ public class Esfera : MonoBehaviour
 
 
         if (Input.GetKey(KeyCode.Q)) {
+            Debug.Log("Rompete esfera");
             Destroy(gameObject);
         }
 
