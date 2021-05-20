@@ -18,7 +18,7 @@ public class Esfera : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow)) {
             this.transform.Translate(Vector3.forward * Time.deltaTime);
-	    Debug.Log("Movete palante");
+
         }
 
         if (Input.GetKey(KeyCode.DownArrow)) {
